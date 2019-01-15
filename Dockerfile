@@ -1,3 +1,3 @@
 from centos
-ADD oupput /home
-ENTRYPOINT [""]
+ADD output /home
+ENTRYPOINT ["/home/print"]
