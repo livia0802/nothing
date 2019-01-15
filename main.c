@@ -2,11 +2,8 @@
 #include <unistd.h>
 
 int main() {
-	while(1)
-	{
-	printf("Hello world");
-	sleep 1;
-	}
-        
-	return 0;
+	while (1) {
+    printf("hello, world\n!");
+    sleep(10);
+}
 }
